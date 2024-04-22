@@ -1,8 +1,4 @@
 delete from contacts;
-insert into contacts (name) values ('Arun');
-insert into contacts (name) values ('Nikitha');
-insert into contacts (name) values ('Dhruv');
-insert into contacts (name) values ('Nitara');
 
 INSERT INTO contacts (name)
 VALUES('Reese');
