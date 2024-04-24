@@ -1,0 +1,80 @@
+{
+	"info": {
+		"_postman_id": "610c4640-f697-4169-b16d-c5a6a85c56c7",
+		"name": "name-filter-ollections",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34441884"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/hello/contacts?nameFilter=^.[aei].*$",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/hello/contacts?nameFilter=^.[aei].*$",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"hello",
+						"contacts"
+					],
+					"query": [
+						{
+							"key": "nameFilter",
+							"value": "^.[aei].*$"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/fetch-all",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/fetch-all",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"fetch-all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"Eva\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/create",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"create"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
